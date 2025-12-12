@@ -10,7 +10,7 @@ import { TokenDTO } from '../models/DTOToken';
 })
 export class UserService {
 
-  ruta_servidor:string = "http://localhost:8080/upc";
+  ruta_servidor:string = "http://localhost:8080/cjsa";
   recurso:string="users";
 
   constructor(private http:HttpClient){}
